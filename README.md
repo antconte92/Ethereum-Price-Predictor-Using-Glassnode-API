@@ -1,6 +1,6 @@
 # Ethereum-Price-Predictor-Using-Glassnode-API
 
-<img src="images/header.png" width="750">
+<img src="images/header.png" width="1000">
 
 
 **Authors**: Anthony Conte
