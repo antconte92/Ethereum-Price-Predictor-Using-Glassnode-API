@@ -15,7 +15,7 @@ Unlike traditional asset classes such as stocks and bonds, the cryptocurrency ma
 
 The primary audience for this project would be individuals who are looking to invest in this emerging asset class. These models could provide utility to investors by allowing them to have a better understanding of which factors influence price to help guide their investment decisions. 
 
-<img src="images/header.png" width="1000">
+<img src="images/ETH_historical_prices.png" width="1000">
 
 ## Data Science Process Steps
 
@@ -24,6 +24,10 @@ The primary audience for this project would be individuals who are looking to in
 * Several other models such as ARIMA, LSTM, and Facebook Prophet were used with varying results. 
 
 ## Results
+<img src="images/ARIMA.png" width="1000">
+<img src="images/LSTM.png" width="1000">
+<img src="images/fb_prophet_fc_fit.png" width="1000">
+
 
 
 ## Conclusions
