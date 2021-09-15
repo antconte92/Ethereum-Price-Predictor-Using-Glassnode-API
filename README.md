@@ -27,6 +27,5 @@ The primary audience for this project would be individuals who are looking to in
 *ARIMA*
 <img src="images/ARIMA.png" width="1000">
 *LSTM*
-<img src="images/LSTM.png" width="1000">
 *FB Prophet*
 <img src="images/fb_prophet_zoomed_in.png" width="1000">
