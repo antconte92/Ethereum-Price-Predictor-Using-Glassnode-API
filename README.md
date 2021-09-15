@@ -1,10 +1,11 @@
 # Ethereum-Price-Predictor-Using-Glassnode-API
+<img src="images/header.png" width="1000">
 
-**Authors**: Anthony Conte
+Project By: Anthony Conte
 
 ## Overview
 
-The aim of this project is to use data from the Glassnode API in an attempt to predict the future price of Ethereum 30 days out. Several models were utilized for forecasting including Linear Regression, LSTM, and Facebook Prophet. 
+The aim of this project is to use data from the Glassnode API in an attempt to predict the future price of Ether. Several models were utilized for forecasting including Linear Regression, ARIMA, LSTM, and Facebook Prophet. 
 
 ## Business Problem
 
@@ -14,60 +15,19 @@ Unlike traditional asset classes such as stocks and bonds, the cryptocurrency ma
 
 The primary audience for this project would be individuals who are looking to invest in this emerging asset class. These models could provide utility to investors by allowing them to have a better understanding of which factors influence price to help guide their investment decisions. 
 
-## Data
+<img src="images/header.png" width="1000">
 
-The data for this project was collected using the Glassnode API.
+## Data Science Process Steps
 
-## Methods
-
-Describe the process for analyzing or modeling the data. For Phase 1, this will be descriptive analysis.
-
-***
-Questions to consider:
-* How did you prepare, analyze or model the data?
-* Why is this approach appropriate given the data and the business problem?
-***
+* The data was collected using the Glassnode API, then examined for Stationarity, Trend, and Seasonality prior to the modeling process.
+* To establish a baseline, a linear regression model was used.
+* Several other models such as ARIMA, LSTM, and Facebook Prophet were used with varying results. 
 
 ## Results
 
-Present your key results. For Phase 1, this will be findings from your descriptive analysis.
-
-***
-Questions to consider:
-* How do you interpret the results?
-* How confident are you that your results would generalize beyond the data you have?
-***
-
-Here is an example of how to embed images from your sub-folder:
-
-### Visual 1
-![graph1](./images/viz1.png)
 
 ## Conclusions
 
 Provide your conclusions about the work you've done, including any limitations or next steps.
 
-***
-Questions to consider:
-* What would you recommend the business do as a result of this work?
-* What are some reasons why your analysis might not fully solve the business problem?
-* What else could you do in the future to improve this project?
-***
 
-## For More Information
-
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
-
-For any additional questions, please contact **name & email, name & email**
-
-## Repository Structure
-
-Describe the structure of your repository and its contents, for example:
-
-```
-├── README.md                           <- The top-level README for reviewers of this project
-├── dsc-phase1-project-template.ipynb   <- Narrative documentation of analysis in Jupyter notebook
-├── DS_Project_Presentation.pdf         <- PDF version of project presentation
-├── data                                <- Both sourced externally and generated from code
-└── images                              <- Both sourced externally and generated from code
-```
