@@ -24,14 +24,9 @@ The primary audience for this project would be individuals who are looking to in
 * Several other models such as ARIMA, LSTM, and Facebook Prophet were used with varying results. 
 
 ## Results
+*ARIMA*
 <img src="images/ARIMA.png" width="1000">
+*LSTM*
 <img src="images/LSTM.png" width="1000">
-<img src="images/fb_prophet_fc_fit.png" width="1000">
-
-
-
-## Conclusions
-
-Provide your conclusions about the work you've done, including any limitations or next steps.
-
-
+*FB Prophet*
+<img src="images/fb_prophet_zoomed_in.png" width="1000">
