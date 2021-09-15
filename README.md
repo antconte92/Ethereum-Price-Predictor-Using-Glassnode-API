@@ -30,3 +30,8 @@ The primary audience for this project would be individuals who are looking to in
 <img src="images/LSTM_v2.png" width="1000">
 *FB Prophet*
 <img src="images/fb_prophet_zoomed_in.png" width="1000">
+
+## Conclusions
+Overall, none of my models performed as well as I would have liked. This is primarily due to the lack of price history available as this is a relatively new asset class.
+
+Going forward, I would like to continue improving this model by incorporating additional metrics such as google search trends, tweets, as well as additional on-chain metrics which require a subscription to Glassnode's professional API. 
